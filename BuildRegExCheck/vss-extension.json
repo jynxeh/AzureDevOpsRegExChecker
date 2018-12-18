@@ -1,0 +1,36 @@
+{
+	"manifestVersion": 1,
+	"id": "RegExCheck",
+	"version": "1.0.14",
+	"name": "Regular Expression Checker",
+	"description": "A VSTS build task for checking file contents against a regular expression.",
+	"publisher": "JynxedDevelopment",
+	"targets": [
+		{
+			"id": "Microsoft.VisualStudio.Services"
+			}
+		],
+	"icons": {
+		"default": "icon.png"
+	 },
+	"contributions": [
+		{
+			"id": "RegExCheck",
+			"type": "ms.vss-distributed-task.task",
+			"targets": [
+				"ms.vss-distributed-task.tasks"
+			],
+			"properties": {
+				"name": "buildtasks"
+			}
+		}
+	],
+	"files":[
+		{
+			"path": "buildtasks"			
+		}
+	],
+	"categories": [
+        "Build and release"
+    ]
+}
