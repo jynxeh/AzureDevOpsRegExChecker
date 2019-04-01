@@ -17,4 +17,4 @@ A regular expression to filter files on their full path, only matching items wil
 ### Number of expected matches
 If the number of matches does not equal this value the task will fail.
 
-Find the project source on GitHub <https://github.com/jynxeh/AzureDevOpsRegExChecker>.
+Find the task source on the marketplace <https://marketplace.visualstudio.com/items?itemName=JynxedDevelopment.RegExCheck>.
