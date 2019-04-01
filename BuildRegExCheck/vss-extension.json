@@ -1,10 +1,11 @@
 {
 	"manifestVersion": 1,
 	"id": "RegExCheck",
-	"version": "1.0.14",
+	"version": "1.0.16",
 	"name": "Regular Expression Checker",
 	"description": "A VSTS build task for checking file contents against a regular expression.",
 	"publisher": "JynxedDevelopment",
+	"public": true,
 	"targets": [
 		{
 			"id": "Microsoft.VisualStudio.Services"
@@ -30,6 +31,11 @@
 			"path": "buildtasks"			
 		}
 	],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
 	"categories": [
         "Build and release"
     ]

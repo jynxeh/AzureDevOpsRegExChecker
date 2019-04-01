@@ -16,7 +16,7 @@
     "version": {
         "Major": 1,
         "Minor": 0,
-        "Patch": 14
+        "Patch": 16
     },
     "instanceNameFormat": "RegExChecker",
     "groups": [
@@ -30,7 +30,7 @@
         {
             "name": "checkString",
             "type": "string",
-            "label": "Regular expression",
+            "label": "Regular Expression",
             "defaultValue": "",
             "required": true,
             "helpMarkDown": "A regular expression to check files against."
@@ -38,15 +38,15 @@
         {
             "name": "rootDirectory",
             "type": "filePath",
-            "label": "Search directory",
+            "label": "Root Directory",
             "defaultValue": "$(Build.SourcesDirectory)",
             "required": true,
-            "helpMarkDown": "Enter the directory to check in, the check is recursive."
+            "helpMarkDown": "Enter the directory to start the check in, the check is recursive."
         },
         {
             "name": "fileName",
             "type": "string",
-            "label": "File path",
+            "label": "File Path RegEx",
             "defaultValue": "",
             "required": false,
             "helpMarkDown": "Regular expression to filter files on their full path, only matching items will be searched. If left blank all files in the search directory are included."
