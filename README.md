@@ -1,4 +1,4 @@
-# Regular Expression Checker - Build Task
+# Regular Expression Checker - Azure DevOps Build Task
 
 This is an Azure DevOps task that will check files against a regular expression and count the number of matches it finds. The result will then fail the build if the total count does not match that set in the task (default of 0).
 
